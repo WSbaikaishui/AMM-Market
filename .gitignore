@@ -1,0 +1,40 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+
+
+# Dotenv file
+.env
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+
+
+coverage/
+coverage.json
+lcov.info
+cache-zk/
+artifacts-zk/
+.openzeppelin/
+
+# 调试和日志文件
+*.log
+debug/
+
+# 本地部署相关文件
+deployments/localhost/
+
+# Node modules 依赖，通常通过包管理工具安装，不需要上传
+node_modules/
+
+# 如果你计划使用 git submodule 管理 forge-std，请忽略下面的 lib/forge-std 目录
+# 否则请注释掉以下规则，确保 forge-std 内容被提交
+lib/
