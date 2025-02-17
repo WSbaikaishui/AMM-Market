@@ -248,7 +248,7 @@ amm.tokenToEthSwap(tokenAmount, minEthOut);
 1. 克隆仓库：
 ```
 git clone https://github.com/WSbaikaishui/AMM-Market.git 
-cd amm-contracts
+cd AMM-Market
 ```
 
 2. 安装依赖：
